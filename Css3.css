@@ -1,0 +1,55 @@
+body{
+  font-family: cursive;  
+}
+div > p {
+    text-align: justify;
+}
+
+.content-cell {
+    background-color: #C8C8C8;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+}
+
+.content-cell h2 {
+    margin-top: -5px;
+}
+
+/* Not XS screen */
+@media (min-width:768px){
+    #collapsable-nav {
+        visibility: hidden;
+    }
+}
+
+/* XS screen */
+@media (max-width:767px){
+    
+    .navbar-brand {
+        margin-left: 15px;
+    }
+    
+    .content-cell {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    #collapsable-nav {
+        background-color: #D3D3D3;
+    }
+    
+    #nav-list {     
+        margin-bottom: 1px;
+        margin-top: 0px;
+    }
+    
+    #nav-list li{
+        text-align: center;
+        border: 1px solid #696969;
+        margin-bottom:-1px;
+    }
+    #nav-list li{
+        font-weight: bold;
+        background-color: #B8B8B8;
+    }
+}
